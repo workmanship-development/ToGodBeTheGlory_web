@@ -4,7 +4,7 @@
    position: relative;
     
     flex-direction:row;
-   /* background: #f1f1f1f1;*/
+    /*background: #f1f1f1f1;*/
 }
 
 
@@ -30,11 +30,12 @@
     width: auto;
     margin-top:  -30px;
     padding: 25px;
-    color: #888;
+    color: #484747;
     font-weight: bold;
     font-size: 20px;
     border-radius: 0 3px 3px 0;
     user-select: none;
+    border-radius: 50px;
 
 }
 
@@ -44,7 +45,7 @@
 .next {
     position:absolute;
     right: 0;
-    border-radius: 3px 0 0 3px;
+    
 
 }
 
@@ -52,7 +53,8 @@
 
 .prev:hover, .next:hover {
     background-color: rgba(255,255,255, 0.8);
-    color: white;
+    opacity: 0.25;
+    
 }
 
 /* the dot.bullet.indicator container */
@@ -60,6 +62,7 @@
 .dot-container {
     text-align: center;
     padding: 20px;
+   /* background: #ddd;*/
     
 }
 
@@ -69,6 +72,7 @@
 .dot {
     cursor: pointer;
     height: 15px;
+    width: 15px;
     margin: 0 2px;
     background-color: #bbb;
     border-radius: 50%;
@@ -78,7 +82,7 @@
 
 /* Add a background color to the active dot.circle */
 
-.active, dot:hover {
+.active, .dot:hover {
     background-color: #717171;
 
 }
